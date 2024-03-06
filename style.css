@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(194, 251, 108, 0.973);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#panel{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;    /* Taki ptop ka way tik set ho and border radius na jie*/
+}
+
+#panel #ptop{
+    height: 100px;
+    width: 100%;
+    background-color:rgb(81, 131, 7);
+    display: flex;
+    color: #fff;
+    padding: 0px 30%;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box{
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(47, 224, 121);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#pbtm{
+    width: 100%;
+    height: calc(100% - 100px); 
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble{
+    width: 60px;
+    height: 60px;
+    background-color:rgb(81, 131, 7);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color:rgb(66, 100, 16);
+}
